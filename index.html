@@ -11,6 +11,7 @@
             <h1>
                 <a href="/">Run Buddy</a>
             </h1>
+            
             <nav>
                 <ul>
                     <li><a href="#what-we-do">What We Do</a>
@@ -24,6 +25,38 @@
                 </ul>
             </nav>
         </header>
+        
+        <!--Hero section/Form-->
+        <section class="hero">
+            <div class="hero-form">
+                <h3>Get Started Today</h3>
+                <p>Fill out this form and one of our trainers will schedule a consult</p>
+                <!--Add from element-->
+                <form class="form-input">
+                    <label for="name">Enter full name:</label>
+                    <input type="text" placeholder="Your Name" name="name" id="name" /><br/>
+
+                    <label for="email">Enter email address</label>
+                    <input type="email" placeholder="Email Addres" name="email" id="email"/><br/>
+
+                    <label for="phone">Enter a telephone number</label>
+                    <input type="tel" placeholder="Phone Number" name="phone" id="phone"/><br/>
+                    <p>
+                        Have you worked out with a trainer before?
+                        <input type="radio" name="trainer-confirm" id="trainer-yes"/>
+                        <label for="trainer-yes">Yes</label>
+                        <input type="radio" name="trainer-confrim" id="trainer-no"/>
+                        <label for="trainer-no">No</label>
+                    </p>
+                    <p>I acknowldege that I am at leat 18 years of acknowldege
+                        <input type="checkbox" name="age-confirm" id="checkbox"/>
+                    </p>
+                    <button type="submit">
+                        Get running!
+                    </button>
+                </form>
+            </div>
+        </section>
 
         <!--"what we do section"-->
         <section>

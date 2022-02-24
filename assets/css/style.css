@@ -69,7 +69,7 @@ footer a {
 
 /* Hero Style Sart */
 .hero {
-    background-image: url("https://static.fullstack-bootcamp.com/module-1/hero-bg.jpg");
+    background-image: url("./images/hero-bg.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -90,7 +90,7 @@ footer a {
 }
 
 .hero-form h3 {
-    font-size: 24px;
+    font-size: 40px;
     margin: 0;
 }
 

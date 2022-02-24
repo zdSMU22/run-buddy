@@ -69,7 +69,7 @@ footer a {
 
 /* Hero Style Sart */
 .hero {
-    background-image: url("file:///C:/Users/Z'Kiah/run-buddy/assets/css/images/hero-bg.jpg");
+    background-image: url("https://static.fullstack-bootcamp.com/module-1/hero-bg.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
